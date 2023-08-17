@@ -1,0 +1,53 @@
+h6 {
+    overflow: hidden;
+    text-align: center;
+    color: grey;
+    }
+    
+    h6:before,
+    h6:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 160px;
+    }
+    
+    h6:before {
+    right: 0.5em;
+    margin-left: -20%;
+    }
+    
+    h6:after {
+    left: 0.5em;
+    margin-right: -20%;
+    }
+
+
+
+    .logins button img {
+        width: 18px;
+        margin-right:5px;
+     }
+     .logins button {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0;
+        border-radius: 10px;
+        background: rgba(220, 218, 218, 0.918);
+        border: 1px solid #999;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+     }
+     .custom-box p{
+        color: gray;
+     }
+    .lastline{
+        color: black;
+    }
